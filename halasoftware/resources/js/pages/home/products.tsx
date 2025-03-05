@@ -1,4 +1,5 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
+import { CheckBadgeIcon, CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
+import { CheckCircleIcon, CheckIcon } from '@heroicons/react/24/outline';
 
 // Define the type for each feature
 interface Feature {
@@ -12,17 +13,17 @@ const build: Feature[] = [
         name: 'Seamless Project Management',
         description:
             'Hala Build offers comprehensive tools for tracking project milestones, managing timelines, and organizing tasks, ensuring smooth execution from start to finish.',
-        icon: CloudArrowUpIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Resource Optimization',
         description: 'With Hala Build, you can efficiently manage resources, including labor, materials, and equipment, reducing costs and maximizing productivity across every phase of the construction process.',
-        icon: LockClosedIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Real-time Collaboration & Reporting',
         description: 'Stay connected with your team and clients through real-time collaboration features, with automated reporting and analytics that provide insights for better decision-making and project outcomes.',
-        icon: ServerIcon,
+        icon: CheckBadgeIcon,
     },
 ];
 const health: Feature[] = [
@@ -30,17 +31,17 @@ const health: Feature[] = [
         name: 'Comprehensive Patient Management',
         description:
             'Hala Health allows healthcare providers to manage patient data, track medical histories, and schedule appointments effortlessly, ensuring seamless and personalized care.',
-        icon: CloudArrowUpIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Efficient Workflow Automation',
         description: 'By automating administrative tasks like billing, inventory management, and reporting, Hala Health reduces manual errors, saves time, and helps healthcare professionals focus on patient care.',
-        icon: LockClosedIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Data-Driven Insights & Compliance',
         description: 'With built-in analytics and reporting tools, Hala Health provides valuable insights into healthcare operations while ensuring that your organization complies with industry regulations and standards.',
-        icon: ServerIcon,
+        icon: CheckBadgeIcon,
     },
 ];
 const learn: Feature[] = [
@@ -48,17 +49,17 @@ const learn: Feature[] = [
         name: 'Personalized Learning Paths',
         description:
             'Hala Learn allows educators to create custom learning paths for students based on their unique needs, ensuring a tailored educational experience that enhances engagement and outcomes.',
-        icon: CloudArrowUpIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Streamlined Course Management',
         description: 'Simplify the process of course creation, grading, and tracking student progress with Hala Learn’s easy-to-use tools, making administrative tasks more efficient and less time-consuming.',
-        icon: LockClosedIcon,
+        icon: CheckBadgeIcon,
     },
     {
         name: 'Collaborative Learning Environment',
         description: 'Foster interaction between students and teachers with integrated communication tools, discussion forums, and real-time feedback, promoting a collaborative approach to learning.',
-        icon: ServerIcon,
+        icon: CheckBadgeIcon,
     },
 ];
 
@@ -92,10 +93,10 @@ export default function Products() {
                         </div>
                         <img
                             alt="Product screenshot"
-                            src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+                            src="/assets/pic/Construction.svg"
                             width={2432}
                             height={1442}
-                            className="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                            className="w-[48rem] max-w-none rounded-xl   sm:w-[57rem] md:-ml-4 lg:-ml-0"
                         />
                     </div>
                 </div>
@@ -127,10 +128,10 @@ export default function Products() {
                         </div>
                         <img
                             alt="Product screenshot"
-                            src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+                            src="/assets/pic/Health.svg"
                             width={2432}
                             height={1442}
-                            className="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                            className="w-[48rem] max-w-none rounded-xl sm:w-[57rem] md:-ml-4 lg:-ml-0"
                         />
                     </div>
                 </div>
@@ -162,10 +163,10 @@ export default function Products() {
                         </div>
                         <img
                             alt="Product screenshot"
-                            src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+                            src="/assets/pic/Education.svg"
                             width={2432}
                             height={1442}
-                            className="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                            className="w-[48rem] max-w-none rounded-xl  sm:w-[57rem] md:-ml-4 lg:-ml-0"
                         />
                     </div>
                 </div>
