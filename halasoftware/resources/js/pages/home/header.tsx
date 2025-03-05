@@ -16,6 +16,7 @@ const navigation: NavigationItem[] = [
     { name: 'About Us', href: 'about' },
     { name: 'Contacts', href: 'contacts' },
     { name: 'Company', href: 'company' },
+    { name: 'Downloads', href: 'download' },
 ];
 
 function NavAuth() {

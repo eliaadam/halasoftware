@@ -23,6 +23,10 @@ Route::get('/company', function () {
     return Inertia::render('company');
 })->name('company');
 
+Route::get('/download', function () {
+    return Inertia::render('download');
+})->name('download');
+
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
         return Inertia::render('dashboard');
